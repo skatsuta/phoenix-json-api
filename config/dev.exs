@@ -32,4 +32,4 @@ config :phoenix_json_api, PhoenixJsonApi.Repo,
   username: "postgres",
   password: "postgres",
   database: "phoenix_json_api_dev",
-  size: 10 # The amount of database connections in the pool
+  pool_size: 10 # The amount of database connections in the pool
